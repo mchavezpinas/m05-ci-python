@@ -30,3 +30,13 @@ def dividir(a, b):
     if b == 0:
         raise ValueError("No se puede dividir entre cero")
     return a / b
+
+
+def potencia(base, exponente):
+    """Retorna base elevado a exponente."""
+    return base ** exponente
+
+
+def modulo(a, b):
+    """Retorna el residuo de a entre b."""
+    return a % b
